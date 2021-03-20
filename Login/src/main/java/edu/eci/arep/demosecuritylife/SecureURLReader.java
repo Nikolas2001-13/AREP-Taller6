@@ -29,6 +29,15 @@ import javax.net.ssl.TrustManagerFactory;
  */
 public class SecureURLReader {
 
+    
+    /** 
+     * @param args
+     * @throws IOException
+     * @throws KeyStoreException
+     * @throws NoSuchAlgorithmException
+     * @throws CertificateException
+     * @throws KeyManagementException
+     */
     public static void main(String... args) throws IOException, KeyStoreException, NoSuchAlgorithmException, CertificateException, KeyManagementException {
 
         // Create a file and a password representation
@@ -58,6 +67,11 @@ public class SecureURLReader {
         readURL("https://www.google.com");
     }
 
+    
+    /** 
+     * @param site
+     * @throws IOException
+     */
     public static void readURL(String site) throws IOException {
 
         // Crea el objeto que representa una URL
