@@ -29,6 +29,10 @@ Compilamos con maven
 
 `$ mvn package`
 
+Correr proyecto
+
+`mvn exec:java -D "exec.mainClass"="edu.eci.arep.demosecuritylife.HelloService"`
+
 ## Prerrequisitos
 Java SE Development Kit 8 -Java SE Runtime Environment 8 -Apache Maven.
 Tener conocimiento sobre AWS, Maven, GIT, Spark y GITHUB. 
