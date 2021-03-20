@@ -1,4 +1,4 @@
-# TALLER DE DE MODULARIZACIÓN CON VIRTUALIZACIÓN E INTRODUCCIÓN A DOCKER Y A AWS
+# APLICACIÓN DISTRIBUIDA SEGURA EN TODOS SUS FRENTES
 
 Desarrolle una aplicación Web segura con los siguientes requerimientos:
 
@@ -9,7 +9,7 @@ Desarrolle una aplicación Web segura con los siguientes requerimientos:
 ## Explicación y Resumen del Proyecto
 
 Para crear los dos computadores se utilizará AWS, y estos tendrán un framework Spark, con el cual se podrá realizar un login desde la aplicación web.
-Para este LoginService se tendrán que utilizar dos cosas principalmente, la KeyStore y la TrustStore, cada una diferente para las dos máquinas. Estas llaves nos permitirán acceder a los servicios que esten previamente autorizados.
+Para este LoginService se tendrán que utilizar dos cosas principalmente, la KeyStore y la TrustStore, estas se generaran gracias al Keytool de java, el cual nos ayuda a generar estos certificados y llaves, cada una diferente para las dos máquinas. Estas llaves nos permitirán acceder a los servicios que esten previamente autorizados.
 
 ## Empezando e Instalando
 
@@ -35,12 +35,8 @@ Correr proyecto
 
 ## Prerrequisitos
 Java SE Development Kit 8 -Java SE Runtime Environment 8 -Apache Maven.
-Tener conocimiento sobre AWS, Maven, GIT, Spark y GITHUB. 
-
-## Instancia en AWS
-
-[Amazon EC2](http://ec2-3-88-203-172.compute-1.amazonaws.com:7600/)
-
+Tener conocimiento sobre AWS, Maven, GIT, Spark y GITHUB.
+Keytool de java.
 
 ## Correr las Pruebas
 
