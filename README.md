@@ -6,10 +6,19 @@ Desarrolle una aplicación Web segura con los siguientes requerimientos:
 2. Debe tener al menos dos computadores comunicacndose entre ellos y el acceso de servicios remotos debe garantizar: autenticación, autorización e integridad entre los servicios. Nadie puede invocar los servicios si no está autorizado.
 3. Explique como escalaría su arquitectura de seguridad para incorporar nuevos servicios.
 
+
+### Arquitectura del Proyecto
+
+![](img/arquitectura.jpg)
+
 ## Explicación y Resumen del Proyecto
 
 Para crear los dos computadores se utilizará AWS, y estos tendrán un framework Spark, con el cual se podrá realizar un login desde la aplicación web.
 Para este LoginService se tendrán que utilizar dos cosas principalmente, la KeyStore y la TrustStore, estas se generaran gracias al Keytool de java, el cual nos ayuda a generar estos certificados y llaves, cada una diferente para las dos máquinas. Estas llaves nos permitirán acceder a los servicios que esten previamente autorizados.
+
+### Login
+
+![](img/ingreso.jpg)
 
 ## Empezando e Instalando
 
